@@ -21,14 +21,14 @@ export default function App() {
 
       <small>
         <a
-          rel="noreferrer"
+          href="https://github.com/saroltah/weather-app-react"
           className="link"
-          href="https://codesandbox.io/s/elated-einstein-4s8viw?file=/src/App.js:562-609"
+          rel="noreferrer"
           target="_blank"
         >
           Open-source code{" "}
         </a>
-        by Sarolta Hegyii
+        by Sarolta Hegyi
       </small>
     </div>
   );

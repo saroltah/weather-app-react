@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import SearchEngine from "./SearchEngine";
+import CurrentTime from "./CurrentTime";
+import CurrentData from "./CurrentData";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-9">
+            <SearchEngine />
+          </div>
+          <div className="col-2">
+            <CurrentTime />
+          </div>
+        </div>
+      </div>
+      <CurrentData />
+
+      <small>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          rel="noreferrer"
+          className="link"
+          href="https://codesandbox.io/s/elated-einstein-4s8viw?file=/src/App.js:562-609"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          Open-source code{" "}
         </a>
-      </header>
+        by Sarolta Hegyi
+      </small>
     </div>
   );
 }
-
-export default App;

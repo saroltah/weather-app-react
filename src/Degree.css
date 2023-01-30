@@ -1,0 +1,13 @@
+.Degree .emoji {
+  width: 50px;
+}
+.Degree .condition {
+  position: relative;
+  bottom: 12px;
+  font-style: italic;
+}
+
+.Degree {
+  position: relative;
+  bottom: 9px;
+}

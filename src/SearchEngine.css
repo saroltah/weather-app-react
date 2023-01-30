@@ -1,0 +1,24 @@
+.SearchEngine .search-engine {
+  margin-bottom: 25px;
+}
+.SearchEngine .type-city {
+  outline: none;
+  border: 1px solid rgba(219, 51, 177, 0.7);
+  border-radius: 10px;
+  box-shadow: 16px 3px 28px 5px rgba(163, 27, 225, 0.2);
+  text-align: center;
+  width: 265px;
+  font-size: 18px;
+}
+.SearchEngine .type-city:hover {
+  border: 2px solid rgba(219, 51, 177, 0.7);
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+.SearchEngine .search {
+  border-radius: 10px;
+  border: 1px solid rgba(219, 51, 177, 0.7);
+}
+.SearchEngine .search:hover {
+  border: 1px solid black;
+}

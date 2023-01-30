@@ -28,7 +28,7 @@ export default function App() {
         >
           Open-source code{" "}
         </a>
-        by Sarolta Hegyi
+        by Sarolta Hegyii
       </small>
     </div>
   );

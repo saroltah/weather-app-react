@@ -28,7 +28,16 @@ export default function App() {
         >
           Open-source code{" "}
         </a>
-        by Sarolta Hegyi
+        by{" "}
+        <a
+          href="https://portfolio-sarolta-hegyi.netlify.app/"
+          className="link"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {" "}
+          Sarolta Hegyi
+        </a>
       </small>
     </div>
   );
